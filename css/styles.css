@@ -8,25 +8,23 @@ body, textarea {
 
 h1 {
     color: aliceblue;
+    
 }
 
-.text {
+.text h1 {
+    margin-bottom: 150px;
+    margin-top: -150px;
     display: flex;
     justify-content: center;
-    align-content: flex-start;
+    align-items: flex-start;
 }
 
-.navbar-container {
+main {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+    position: relative;
     width: 100%;
-    height: 80px;
-    background-color: #c8b6ff;
-    padding: 0 1em;
-    position: relative;
-    box-sizing: border-box;
-}
-
-nav {
-    position: relative;
+    height: 100%;
+    margin-bottom: -30px;
 }
 
 .main-banner {
@@ -38,15 +36,47 @@ nav {
     width: 100%;
     height: 100%;
 }
+.main-banner-principia {
+    background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('../img/slide_desktop_kits.png');
+    background-size: cover;
+    background-position: center;
+    padding: 15em 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.main-banner-cadastro {
+    background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url('../img/img2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 15.5em 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/*nav-bar*/
+
+.navbar-container {
+    width: 100%;
+    height: 70px;
+    background-color: #2f3e46;
+    padding: 0 1em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+}
 
 .navbar-items {
     list-style: none;
     position: relative;
     display: inline-block;
-    height: 80px;
-    line-height: 80px;
+    height: 70px;
+    line-height: 70px;
     margin: 0;
-    right: 0;
+    right: 10px;
 }
 
 .navbar-items li {
@@ -55,17 +85,30 @@ nav {
     color: aliceblue;
 }
 
+.navbar-items li a {
+    color: aliceblue;
+}
+
+
 .default-btn {
-    padding: 15px 20px;
-    background-color: #a2d2ff;
+    padding: 10px 20px;
+    background-color: #212529;
     border-radius: 5px;
     color: rgb(255, 255, 255);
     position: relative;
     box-sizing: border-box;
-    border-color: #a2d2ff;
+    border-color: #212529;
     
 }
 
+.espaco-navs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Container Home */
 
 .container-principia {
     width: 30%;
@@ -126,16 +169,20 @@ nav {
 .card-action p {
     display: flex;
     margin: 20px;
+    font-size: 14px;
     justify-content: center;
     align-items: center;
 
 }
 
+
+/*rodape*/
+
 .rodape {
     width: 100%;
-    height: 80px;
+    height: 70px;
     left: 0;
-    background-color: #c8b6ff;
+    background-color: #2f3e46;
     position: relative;
     box-sizing: border-box;
     display: flex;
@@ -147,17 +194,50 @@ nav {
 /*produtos*/
 
 .card {
+    background-color: aliceblue;
     border: 1px solid #7e7c7c;
     border-radius: 5px;
     overflow: hidden;
-    width: 500px;
+    width: 400px;
+    height: 500px;
+    margin: 0px;
+    margin-bottom: 30px;
 }
 
 .info {
-    padding: 20px;
+    padding: 10px;
 }
 
 .info h2 {
     margin-top: 0;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
+.info p {
+    font-size: 14px;
+}
+
+
+
+.card-btn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.produtos {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
