@@ -3,47 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <title>Skincare</title>
-        <meta name="">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
+            <div class="navbar-container">
                 <nav>
-                    <ul>
-                        <li><a href="#"></a>Home</li>
-                        <li><a href="#"></a>Principia</li>
-                        <li><a href="#"></a>Sallve</li>
+                    <ul class="navbar-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="principia.html">Principia</a></li>
+                        <li><a href="sallve.html">Sallve</a></li>
+                        <li><a href="#" class="default-btn">Cadastre-se</a></li>
                     </ul>
                 </nav>
+            </div>
         </header>
         <main>
-            <h1>Seus produtos de skincare brasileiros</h1>
-
-            //card para Principia e para sallve que leva para a página dos produtos
-            <section>
-                <div class="container">
-                    <div class="card">
-                        <div class="card-image"></div>
+            <div class="main-banner">
+            <div class="text">
+                <h1>Seus produtos de skincare brasileiros</h1>
+            </div>
+            <section class="containers">
+                <div class="container-principia">
+                    <div class="card-index">
+                        <div class="card-image1"></div>
                         <div class="card-action">
-                            <h3>Principia</h3>
-                            <p> Descrição da loja da principia</p>
-
+                            <p> Dermocosméticos de alta performance com transparência e preços justos, fórmulas concentradas com eficácia e segurança comprovadas, abertura das concentrações e benefícios de todos os ingredientes ativos, valores acessíveis por tratamentos cientificamente respaldados</p>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="card">
-                        <div class="card-image"></div>
+                <div class="container-sallve">
+                    <div class="card-index">
+                        <div class="card-image2"></div>
                         <div class="card-action">
-                            <h3>Sallve</h3>
-                            <p> Descrição da loja da salve</p>
-
-                        </div>
+                            <p> Mais do que produtos para a pele, a Sallve é um lugar acolhedor que conecta pessoas, ideias e conteúdo sobre beleza. É assim que, entre conversas sinceras e pesquisas cuidadosas, estamos desenvolvendo fórmulas incríveis inspiradas por necessidades reais.</p>
+                       </div>
                     </div>
                 </div>
              </section>
+            </div>
         </main>
-        <footer>
-            <p>Code Academy @ 2023</p>
+        <footer class="rodape">
+            <p class="text-rodape">Code Academy @ 2023</p>
         </footer>
     </body>
 </html>
