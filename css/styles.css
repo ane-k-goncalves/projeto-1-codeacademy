@@ -31,7 +31,7 @@ main {
     background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url('../img/img2.png');
     background-size: cover;
     background-position: center;
-    padding: 12.3em 0;
+    padding: 20em 0;
     position: relative;
     width: 100%;
     height: 100%;
@@ -40,7 +40,7 @@ main {
     background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('../img/slide_desktop_kits.png');
     background-size: cover;
     background-position: center;
-    padding: 15em 0;
+    padding: 20em 0;
     position: relative;
     width: 100%;
     height: 100%;
@@ -49,7 +49,17 @@ main {
     background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url('../img/img2.png');
     background-size: cover;
     background-position: center;
-    padding: 15.5em 0;
+    padding: 19em 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main-banner-sallve {
+    background-image: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url('../img/01_Animacao_Sallve-logo-Site.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 19em 0;
     position: relative;
     width: 100%;
     height: 100%;
@@ -235,9 +245,72 @@ img {
 }
 
 .produtos {
-    margin: 30px;
+    margin:150px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
    
 }
+
+/*cadastro*/
+
+
+
+.infos h1 {
+    text-transform: uppercase;
+    color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+   
+}
+
+.cad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: -150px;
+}
+
+.cadastro {
+    background-color: #f5f7fa 80%;
+    border: 1px solid #212529;
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 30px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#form-box {
+    margin: 30px;
+}
+
+#form-box input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color:  #f5f7fa 80%;
+    border: 1px solid #212529;
+    width: 268px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+#form-box input[type="submit"]{
+    background-color:  #f5f7fa 80%;
+    color: black;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    border-color: #f5f7fa;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
